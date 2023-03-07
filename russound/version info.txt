@@ -1,0 +1,3 @@
+Vendor : russound.com
+Product : MCA-88X
+SW ver : 03.08.01

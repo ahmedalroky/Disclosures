@@ -1,0 +1,4 @@
+https://www.guralp.com/documents/html/MAN-EAM-0003/s14.html
+http://61.7.156.105/cgi-bin/xmlstatus.cgi#box13
+dork " webconfig menu.cgi "
+Generated at 2022-06-15T08:15:48Z by webconfig menu.cgi 3.2.4. Portions of output copyright © 2022, Güralp Systems Limited.

@@ -1,0 +1,354 @@
+<!--?xml version="1.0" ?-->
+<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:///etc/passwd"> ]>
+<xml-status xmlns='http://www.guralp.com/platinum/xmlns/xmlstatus/1.1'>
+<module status='-1' display-primary='true' path='gcf-in-brp.PortA' title='GCF in: Port A'>
+<reading status='100' display-primary='true' path='total_blocks_in'
+    title='Total number of blocks received'>344562</reading>
+<reading status='100' display-primary='false' path='bytes_in'
+    title='Number of bytes received in last 5 minutes'>750224</reading>
+<reading status='-1' display-primary='true' path='total_naks'
+    title='Total number of naks sent'>24</reading>
+<reading status='-1' display-primary='false' path='total_blocks_out'
+    title='Total number of blocks output'>344589</reading>
+<reading status='100' display-primary='true' path='last5_blocks_in'
+    title='Number of blocks received in last 5 minutes'>93</reading>
+<reading status='100' display-primary='true' path='last5_naks'
+    title='Number of naks sent in last 5 minutes'>0</reading>
+<reading status='-1' display-primary='false' path='last5_blocks_out'
+    title='Number of blocks output in last 5 minutes'>93</reading>
+<reading status='-1' display-primary='true' path='latest_timestamp'
+    title='Timestamp of last packet received'>2022-06-29T09:02:19.000Z </reading>
+<reading status='-1' display-primary='false' path='last_event_time'
+    title='Time of last event'>2022-06-16T12:09:18Z</reading>
+<reading status='-1' display-primary='false' path='last_event_type'
+    title='Type of last event'>Digitiser not responding to NAK. Giving up. event at 2022-06-16T12:09:18Z</reading>
+</module>
+<module status='-1' display-primary='true' path='gcf-out-scream.default' title='Scream server (GCF network sender)'>
+<reading status='100' display-primary='true' path='total_blocks'
+    title='Total number of blocks sent'>344339</reading>
+<reading status='100' display-primary='true' path='last5_blocks'
+    title='Number of blocks sent in last 5 minutes'>91</reading>
+<reading status='-1' display-primary='true' path='num_clients'
+    title='Number of clients connected'>2</reading>
+<list status='-1' display-primary='true' path='clients' title='Clients'>
+<list-item status='-1' display-primary='true' path='4506F212' title='Client #2124: UDP Pull'>
+<reading status='-1' display-primary='true' path='remote_ip'
+    title='Remote IP address'>79.123.179.139</reading>
+<reading status='-1' display-primary='true' path='remote_port'
+    title='Remote port'>62218</reading>
+</list-item>
+<list-item status='-1' display-primary='true' path='7F6D496C' title='Client #2129: TCP Push'>
+<reading status='-1' display-primary='true' path='remote_ip'
+    title='Remote IP address'>79.123.179.139</reading>
+<reading status='-1' display-primary='true' path='remote_port'
+    title='Remote port'>63556</reading>
+</list-item>
+</list>
+</module>
+<module status='-1' display-primary='true' path='gdi-base.default' title='Default data transport daemon'>
+<reading status='100' display-primary='true' path='num_channels'
+    title='Number of channels'>5</reading>
+<reading status='100' display-primary='true' path='num_clients'
+    title='Number of connected clients'>3</reading>
+<reading status='100' display-primary='true' path='num_samples'
+    title='Number of samples received'>335695700</reading>
+<reading status='100' display-primary='true' path='last5_samples'
+    title='Number of samples in last 5 minutes'>90500</reading>
+<list status='-1' display-primary='false' path='clients' title='Clients'>
+<list-item status='-1' display-primary='false' path='44B02216' title='Client #1'>
+<reading status='-1' display-primary='false' path='name'
+    title='Client name'>gdi-link-tx[default]</reading>
+</list-item>
+<list-item status='-1' display-primary='false' path='1CC104A5' title='Client #2'>
+<reading status='-1' display-primary='false' path='name'
+    title='Client name'>gdi2gcf[default]</reading>
+</list-item>
+<list-item status='-1' display-primary='false' path='9D9E4553' title='Client #3'>
+<reading status='-1' display-primary='false' path='name'
+    title='Client name'>gcf-in-brp[PortA]</reading>
+</list-item>
+</list>
+<list status='-1' display-primary='false' path='channels' title='Channels'>
+<list-item status='-1' display-primary='false' path='38B5E770' title='Channel #1'>
+<reading status='-1' display-primary='false' path='name'
+    title='Channel name'>KHAIO-5BT4N2</reading>
+</list-item>
+<list-item status='-1' display-primary='false' path='7B77F21B' title='Channel #2'>
+<reading status='-1' display-primary='false' path='name'
+    title='Channel name'>KHAIO-5BT4E2</reading>
+</list-item>
+<list-item status='-1' display-primary='false' path='B55019F4' title='Channel #3'>
+<reading status='-1' display-primary='false' path='name'
+    title='Channel name'>KHAIO-5BT4Z2</reading>
+</list-item>
+<list-item status='-1' display-primary='false' path='35ED217B' title='Channel #4'>
+<reading status='-1' display-primary='false' path='name'
+    title='Channel name'>KHAIO-5BT400</reading>
+</list-item>
+<list-item status='-1' display-primary='false' path='8062D6AB' title='Channel #5'>
+<reading status='-1' display-primary='false' path='name'
+    title='Channel name'>KHAIO-5BT4IB</reading>
+</list-item>
+</list>
+</module>
+<module status='-1' display-primary='true' path='gdi-link-tx.default' title='System gdi-link transmitter'>
+<reading status='100' display-primary='true' path='total_bytes_sent' units='bytes'
+    title='Total number of bytes sent'>338447866</reading>
+<reading status='100' display-primary='true' path='last5_bytes_sent'
+    title='Number of bytes sent in last 5 minutes'>91306</reading>
+<reading status='100' display-primary='true' path='tx_rate'
+    title='Transmit rate over last 5 minutes'>304.353</reading>
+<reading status='100' display-primary='true' path='num_clients'
+    title='Number of clients'>0</reading>
+<list status='-1' display-primary='true' path='clients' title='Clients'>
+</list>
+</module>
+<module status='-1' display-primary='true' path='gdi2gcf.default' title='GCF compressor. Default instance'>
+<reading status='100' display-primary='true' path='num_samples_in'
+    title='Total number of samples in'>335819728</reading>
+<reading status='100' display-primary='true' path='last5_samples_in'
+    title='Number of samples in in last 5 minutes'>89500</reading>
+<reading status='100' display-primary='true' path='num_blocks_out'
+    title='Total number of blocks out'>344339</reading>
+<reading status='100' display-primary='true' path='last5_blocks_out'
+    title='Number of blocks out in last 5 minutes'>92</reading>
+</module>
+<module status='-1' display-primary='true' path='instrument.KHAIO-5BT4' title='KHAIO-5BT4'>
+<reading status='-1' display-primary='false' path='clock_locked'
+    title='Clock locked'>false</reading>
+<reading status='-1' display-primary='false' path='clock_diff' units='s'
+    title='Clock difference'></reading>
+<reading status='-1' display-primary='false' path='clock_last_locked'
+    title='Clock last locked time'></reading>
+<reading status='-1' display-primary='false' path='gps_fix'
+    title='GPS fix'></reading>
+<reading status='-1' display-primary='false' path='gps_latitude' units='°'
+    title='GPS latitude'></reading>
+<reading status='-1' display-primary='false' path='gps_longitude' units='°'
+    title='GPS longitude'></reading>
+<reading status='-1' display-primary='false' path='gps_elevation' units='m'
+    title='GPS elevation'></reading>
+<reading status='-1' display-primary='false' path='calibrating'
+    title='Calibrating'></reading>
+<reading status='-1' display-primary='false' path='fir_charging'
+    title='FIR filter charging'></reading>
+<reading status='-1' display-primary='false' path='mass_z'
+    title='Z mass position'></reading>
+<reading status='-1' display-primary='false' path='mass_n'
+    title='N mass position'></reading>
+<reading status='-1' display-primary='false' path='mass_e'
+    title='E mass position'></reading>
+<reading status='-1' display-primary='false' path='tap_table_lookup'
+    title='Tap table lookup'>78</reading>
+<reading status='-1' display-primary='false' path='digitiser_type'
+    title='Digitiser type'>CMG-CD24</reading>
+<list status='-1' display-primary='true' path='soh_log' title='SOH log'>
+<list-item status='-1' display-primary='true' path='303D4004' title='Log entry #127'>
+<reading status='-1' display-primary='true' path='entry'
+    title='Log entry'>2022 06 28 18:35:00 Temperature 36.12&apos;C   
+2022 06 28 18:45:00 Temperature 36.12&apos;C   
+2022 06 28 18:55:00 Temperature 36.18&apos;C   
+2022 06 28 19:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 28 19:00:00 No position info  
+2022 06 28 19:00:00 No FIX SV#&apos;s  none
+2022 06 28 19:05:00 Temperature 36.18&apos;C   
+2022 06 28 19:15:00 Temperature 36.18&apos;C   
+2022 06 28 19:25:00 Temperature 36.12&apos;C   
+2022 06 28 19:35:00 Temperature 36.18&apos;C   
+2022 06 28 19:45:00 Temperature 36.18&apos;C   
+2022 06 28 19:55:00 Temperature 36.25&apos;C   
+2022 06 28 20:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 28 20:00:00 No position info  
+2022 06 28 20:00:00 No FIX SV#&apos;s  none
+2022 06 28 20:05:00 Temperature 36.18&apos;C   
+2022 06 28 20:15:00 Temperature 36.18&apos;C   
+2022 06 28 20:25:00 Temperature 36.18&apos;C   
+2022 06 28 20:35:00 Temperature 36.18&apos;C   
+2022 06 28 20:45:00 Temperature 36.18&apos;C   
+2022 06 28 20:55:00 Temperature 36.18&apos;C   
+2022 06 28 21:00:00 Mass Positions -1%  -1%  -1%  
+</reading>
+</list-item>
+<list-item status='-1' display-primary='true' path='A974BAEB' title='Log entry #128'>
+<reading status='-1' display-primary='true' path='entry'
+    title='Log entry'>2022 06 28 21:00:00 No position info  
+2022 06 28 21:00:00 No FIX SV#&apos;s  none
+2022 06 28 21:05:00 Temperature 36.18&apos;C   
+2022 06 28 21:15:00 Temperature 36.18&apos;C   
+2022 06 28 21:25:00 Temperature 36.25&apos;C   
+2022 06 28 21:35:00 Temperature 36.43&apos;C   
+2022 06 28 21:45:00 Temperature 36.43&apos;C   
+2022 06 28 21:55:00 Temperature 36.37&apos;C   
+2022 06 28 22:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 28 22:00:00 No position info  
+2022 06 28 22:00:00 No FIX SV#&apos;s  none
+2022 06 28 22:05:00 Temperature 36.31&apos;C   
+2022 06 28 22:15:00 Temperature 36.31&apos;C   
+2022 06 28 22:25:00 Temperature 36.25&apos;C   
+2022 06 28 22:35:00 Temperature 36.25&apos;C   
+2022 06 28 22:45:00 Temperature 36.25&apos;C   
+2022 06 28 22:55:00 Temperature 36.25&apos;C   
+2022 06 28 23:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 28 23:00:00 No position info  
+2022 06 28 23:00:00 No FIX SV#&apos;s  none
+2022 06 28 23:05:00 Temperature 36.18&apos;C   
+2022 06 28 23:15:00 Temperature 36.25&apos;C   
+2022 06 28 23:25:00 Temperature 36.25&apos;C   
+</reading>
+</list-item>
+<list-item status='-1' display-primary='true' path='97A355C9' title='Log entry #129'>
+<reading status='-1' display-primary='true' path='entry'
+    title='Log entry'>2022 06 28 23:35:00 Temperature 36.18&apos;C   
+2022 06 28 23:45:00 Temperature 36.18&apos;C   
+2022 06 28 23:55:00 Temperature 36.18&apos;C   
+2022 06 29 00:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 29 00:00:00 No position info  
+2022 06 29 00:00:00 No FIX SV#&apos;s  none
+2022 06 29 00:05:00 Temperature 36.18&apos;C   
+2022 06 29 00:15:00 Temperature 36.18&apos;C   
+2022 06 29 00:25:00 Temperature 36.18&apos;C   
+2022 06 29 00:35:00 Temperature 36.18&apos;C   
+2022 06 29 00:45:00 Temperature 36.18&apos;C   
+2022 06 29 00:55:00 Temperature 36.18&apos;C   
+2022 06 29 01:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 29 01:00:00 No position info  
+2022 06 29 01:00:00 No FIX SV#&apos;s  none
+2022 06 29 01:05:00 Temperature 36.25&apos;C   
+2022 06 29 01:15:00 Temperature 36.25&apos;C   
+2022 06 29 01:25:00 Temperature 36.18&apos;C   
+2022 06 29 01:35:00 Temperature 36.18&apos;C   
+2022 06 29 01:45:00 Temperature 36.18&apos;C   
+2022 06 29 01:55:00 Temperature 36.25&apos;C   
+2022 06 29 02:00:00 Mass Positions -1%  -1%  -1%  
+</reading>
+</list-item>
+<list-item status='-1' display-primary='true' path='F824906C' title='Log entry #130'>
+<reading status='-1' display-primary='true' path='entry'
+    title='Log entry'>2022 06 29 02:00:00 No position info  
+2022 06 29 02:00:00 No FIX SV#&apos;s  none
+2022 06 29 02:05:00 Temperature 36.18&apos;C   
+2022 06 29 02:15:00 Temperature 36.18&apos;C   
+2022 06 29 02:25:00 Temperature 36.12&apos;C   
+2022 06 29 02:35:00 Temperature 36.25&apos;C   
+2022 06 29 02:45:00 Temperature 36.18&apos;C   
+2022 06 29 02:55:00 Temperature 36.18&apos;C   
+2022 06 29 03:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 29 03:00:00 No position info  
+2022 06 29 03:00:00 No FIX SV#&apos;s  none
+2022 06 29 03:05:00 Temperature 36.12&apos;C   
+2022 06 29 03:15:00 Temperature 36.18&apos;C   
+2022 06 29 03:25:00 Temperature 36.12&apos;C   
+2022 06 29 03:35:00 Temperature 36.18&apos;C   
+2022 06 29 03:45:00 Temperature 36.18&apos;C   
+2022 06 29 03:55:00 Temperature 36.18&apos;C   
+2022 06 29 04:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 29 04:00:00 No position info  
+2022 06 29 04:00:00 No FIX SV#&apos;s  none
+2022 06 29 04:05:00 Temperature 36.18&apos;C   
+2022 06 29 04:15:00 Temperature 36.18&apos;C   
+2022 06 29 04:25:00 Temperature 36.18&apos;C   
+</reading>
+</list-item>
+<list-item status='-1' display-primary='true' path='DDDFB616' title='Log entry #131'>
+<reading status='-1' display-primary='true' path='entry'
+    title='Log entry'>2022 06 29 04:35:00 Temperature 36.18&apos;C   
+2022 06 29 04:45:00 Temperature 36.18&apos;C   
+2022 06 29 04:55:00 Temperature 36.18&apos;C   
+2022 06 29 05:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 29 05:00:00 No position info  
+2022 06 29 05:00:00 No FIX SV#&apos;s  none
+2022 06 29 05:05:00 Temperature 36.18&apos;C   
+2022 06 29 05:15:00 Temperature 36.18&apos;C   
+2022 06 29 05:25:00 Temperature 36.18&apos;C   
+2022 06 29 05:35:00 Temperature 36.18&apos;C   
+2022 06 29 05:45:00 Temperature 36.12&apos;C   
+2022 06 29 05:55:00 Temperature 36.18&apos;C   
+2022 06 29 06:00:00 Mass Positions -1%  -1%  -1%  
+2022 06 29 06:00:00 No position info  
+2022 06 29 06:00:00 No FIX SV#&apos;s  none
+2022 06 29 06:05:00 Temperature 36.18&apos;C   
+2022 06 29 06:15:00 Temperature 36.18&apos;C   
+2022 06 29 06:25:00 Temperature 36.18&apos;C   
+2022 06 29 06:35:00 Temperature 36.18&apos;C   
+2022 06 29 06:45:00 Temperature 36.18&apos;C   
+2022 06 29 06:55:00 Temperature 36.18&apos;C   
+2022 06 29 07:00:00 Mass Positions -1%  -1%  -1%  
+</reading>
+</list-item>
+</list>
+</module>
+<module status='-1' display-primary='true' path='ntp' title='NTP'>
+<reading status='0' display-primary='true' path='locked'
+    title='Clock locked'>false</reading>
+<reading status='-1' display-primary='true' path='estimated_error' units='s'
+    title='Estimated error'>?</reading>
+<reading status='-1' display-primary='true' path='clock_source'
+    title='Clock source'>Guralp digitiser</reading>
+<reading status='-1' display-primary='false' path='peer'
+    title='Peer'></reading>
+<reading status='-1' display-primary='false' path='peer_refid'
+    title='Peer&apos;s reference ID'></reading>
+</module>
+<module status='-1' display-primary='true' path='storage' title='Storage'>
+<reading status='100' display-primary='true' path='state'
+    title='State'>Inactive</reading>
+<reading status='100' display-primary='true' path='recording_state'
+    title='Recording state'>Last flush successful</reading>
+<reading status='-1' display-primary='true' path='last_accessed'
+    title='Last accessed'>2022-06-28T21:27Z</reading>
+<reading status='100' display-primary='true' path='free_space_pct'
+    title='Free space'>63.2%</reading>
+<reading status='100' display-primary='false' path='free_space' units='bytes'
+    title='Available space'>10172727296</reading>
+<reading status='-1' display-primary='true' path='size' units='bytes'
+    title='Storage size'>16084090880</reading>
+<reading status='100' display-primary='false' path='fs_type'
+    title='Filesystem type'>VFAT</reading>
+<reading status='-1' display-primary='true' path='power_duty_cycle'
+    title='Storage power duty cycle'>0.4%</reading>
+<reading status='-1' display-primary='true' path='power_on_time' units='s'
+    title='Storage power on time'>4563</reading>
+<reading status='-1' display-primary='false' path='power_last_onoff'
+    title='Storage power switched at'>2022-06-28T21:28Z</reading>
+<list status='-1' display-primary='false' path='clients' title='Clients'>
+</list>
+</module>
+<module status='-1' display-primary='true' path='system' title='Linux system'>
+<reading status='-1' display-primary='true' path='uptime' units='s'
+    title='System uptime'>1119120</reading>
+<reading status='-1' display-primary='true' path='load_average'
+    title='Load Average'>0.68</reading>
+<reading status='100' display-primary='true' path='root_free_space' units='bytes'
+    title='Root filesystem free bytes'>355151872</reading>
+<reading status='100' display-primary='true' path='root_percent_free_space'
+    title='Root filesystem percentage space free'>66.2%</reading>
+<reading status='-1' display-primary='true' path='build_label'
+    title='Software repository label'>&ent;</reading>
+<reading status='-1' display-primary='true' path='build_version'
+    title='Software build number'>11988</reading>
+<reading status='-1' display-primary='true' path='build_machine'
+    title='Build machine'>CMG-DCM-mk4-eabi</reading>
+<reading status='-1' display-primary='true' path='gpio_settings'
+    title='GPIO settings'>e2am</reading>
+<reading status='100' display-primary='true' path='temperature' units='°C'
+    title='System temperature'>40.25</reading>
+<reading status='100' display-primary='true' path='systemvoltage' units='V'
+    title='System voltage'>13.51</reading>
+<reading status='100' display-primary='true' path='systemcurrent' units='A'
+    title='System current'>0.18</reading>
+<reading status='100' display-primary='true' path='systempower' units='W'
+    title='System power'>2.44</reading>
+<reading status='100' display-primary='true' path='gpsvoltage' units='V'
+    title='GPS voltage'>12.99</reading>
+<reading status='100' display-primary='true' path='gpscurrent' units='A'
+    title='GPS current'>-0</reading>
+<reading status='100' display-primary='true' path='gpspower' units='W'
+    title='GPS power'>-0.01</reading>
+<reading status='100' display-primary='true' path='digitiservoltage' units='V'
+    title='ADC module voltage'>13.01</reading>
+<reading status='100' display-primary='true' path='digitisercurrent' units='A'
+    title='ADC module current'>-0.084</reading>
+<reading status='100' display-primary='true' path='digitiserpower' units='W'
+    title='ADC module power'>-1.09</reading>
+</module>
+</xml-status>

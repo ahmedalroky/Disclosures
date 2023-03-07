@@ -1,0 +1,4 @@
+http://59.148.80.138/cgi-bin/ExportAllSettings.sh
+http://59.148.80.138/cgi-bin/ExportLogs.sh
+http://59.148.80.138/cgi-bin/export_master_ovpn.sh
+http://59.148.80.138/cgi-bin/export_guest_ovpn.sh

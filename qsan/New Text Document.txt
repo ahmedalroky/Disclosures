@@ -1,0 +1,4 @@
+http://115.246.184.50:443/QuickInstall/app/QuickInstall/backend/FirmwareUpgrade.php?_dc=1673787457534&op=get_available_fw
+http://115.246.184.50:443/QuickInstall/app/QuickInstall/backend/QuickInstall.php?_dc=1673787456699&op=get_all_conf
+http://211.205.53.94:10000/QuickInstall/app/QuickInstall/backend/QuickInstall.php?_dc=1673787456699&op=get_all_conf
+http://115.246.184.50:443/

