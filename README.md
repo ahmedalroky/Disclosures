@@ -1,7 +1,8 @@
 # Disclosures 
 
-## My GitHub repository is dedicated to sharing reports about zero day exploits that could potentially be used to gain unauthorized access to IoT devices
+## Welcome to my publications repository for the zero-day vulnerabilities that I have discovered! This repository contains detailed technical papers, advisories, and related publications on zero-day vulnerabilities that I have discovered.
 
+Ahmed alroky
 
 # Index :  
 -  [apesystems](apesystems)  
