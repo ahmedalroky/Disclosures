@@ -3,6 +3,32 @@
 ### Vendor :  https://apsystems.com/
 ### Google Dork : intitle:"Altenergy Power Control Software"
 
+## vulnerable code :
+
+"/home/local_web/pagesapplication/models/management_model.php"
+
+```php
+   public function set_timezone()
+    {
+        $results = array();
+
+        //ΦÄ╖σÅûΘí╡Θ¥óΘÇëµï⌐τÜäµù╢σî║
+        $timezone = $this->input->post('timezone');
+        if(strlen($timezone) == 0)
+                $timezone = "Asia/Taipei";
+
+        //Φ«╛τ╜«linuxτ│╗τ╗ƒµù╢σî║
+        $cmd = "cp /usr/share/zoneinfo/$timezone /etc/localtime";
+        system($cmd);
+
+        //σ░åµù╢σî║Σ┐¥σ¡ÿσê░Θàìτ╜«µûçΣ╗╢
+        $fp = @fopen("/etc/yuneng/timezone.conf",'w');
+        if($fp){
+            fwrite($fp, $timezone);
+            fclose($fp);
+        }
+
+```
 
 ## Exploit : 
 
