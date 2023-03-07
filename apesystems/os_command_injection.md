@@ -73,5 +73,8 @@ POC :
 ![Alt Text](POC.png)
 
 ** note **
-- please use the following command after getting shell to avoid distorying the WEBUI 
-"echo Asia/Taipei > /etc/yuneng/timezone.conf"
+- please use the following command after getting shell to avoid distorying the WEBUI.  
+"echo Asia/Taipei > /etc/yuneng/timezone.conf"  
+
+## Important files to check :  
+- /etc/yuneng/passwd.conf this file contains the credentials for the WebUI.  
