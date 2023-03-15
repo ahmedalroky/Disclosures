@@ -1,8 +1,9 @@
 ## title : OS command injection affects "Altenergy Power Control Software"
-### SW ver : C1.2.5
-### Vendor :  https://apsystems.com/
-### Google Dork : intitle:"Altenergy Power Control Software"
-### Affected device : ENERGY COMMUNICATION UNIT
+### SW ver: C1.2.5
+### Vendor:  https://apsystems.com/
+### CVE: CVE-2023-28343
+### Google Dork: intitle:"Altenergy Power Control Software"
+### Affected device: ENERGY COMMUNICATION UNIT
 ![Alt Text](https://www.ecodirect.com/v/vspfiles/photos/APSYSTEMS-YC500-ECU-2T.jpg)
 
 
