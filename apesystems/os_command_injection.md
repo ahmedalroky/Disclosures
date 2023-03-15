@@ -83,3 +83,7 @@ POC :
 
 ## Important files to check :  
 - /etc/yuneng/passwd.conf this file contains the credentials for the WebUI.  
+  
+##References:  
+- https://nvd.nist.gov/vuln/detail/CVE-2023-28343  
+- https://github.com/advisories/GHSA-77pg-3832-hjf8  
