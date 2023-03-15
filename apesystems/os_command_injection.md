@@ -6,6 +6,8 @@
 ### Affected device: ENERGY COMMUNICATION UNIT
 ![Alt Text](https://www.ecodirect.com/v/vspfiles/photos/APSYSTEMS-YC500-ECU-2T.jpg)
 
+## POC Video :
+<video src="POC.mp4" width="320" height="240" controls></video>
 
 ## vulnerable code :
 
