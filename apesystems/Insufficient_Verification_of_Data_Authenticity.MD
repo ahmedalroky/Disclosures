@@ -1,4 +1,4 @@
-## title : Insufficient Verification of Data Authenticity "Altenergy Power Control Software" led to RCE
+## title : insufficient verification of firmware integrity "Altenergy Power Control Software" led to RCE
 ### SW ver: C1.2.5
 ### Vendor:  https://apsystems.com/
 ### Google Dork: intitle:"Altenergy Power Control Software"
